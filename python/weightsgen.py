@@ -68,20 +68,29 @@ model = h_keras.baseline_model(len(chars), seglen)
 
 weights_file = root + '/weights'
 
+import os
+
+if os.path.isfile(weights_file):
+    model.load_weights(weights_file)
+
 from keras.preprocessing import sequence
 
-
 # train the model, output generated text after each iteration
+count = 0
 for iteration in range(1, 60):
     print()
     print('-' * 50)
     print('Iteration', iteration)
     model.fit(x, y, batch_size=2500, epochs=1)
     model.save_weights(weights_file, overwrite=True)
+    count += 1
+    if count % 5 > 0:
+        continue
     start_index = random.randint(0, len(text) - seglen - 1)
     #
     seed = text[start_index: start_index + seglen]
     generated_indices = [m_char_index[c] for c in seed]
+    # test = [m_index_char[i] for i in generated_indices]
     print('----- Generating with seed: "' + ''.join(seed) + '"')
     #
     print('using sample(): ')
@@ -96,11 +105,8 @@ for iteration in range(1, 60):
         generated_indices += [next_index]
         #
         print(m_index_char[next_index], end='', flush=True)
-        # sys.stdout.flush()
-        #
-    #
     print()
-    #
+
     generated_indices = [m_char_index[c] for c in seed]
     print('using highest prob: ')
     for i in range(400):

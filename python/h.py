@@ -13,7 +13,7 @@ import os
 
 
 def get_root():
-    root = '../../../neuralperkinsdata'
+    root = '../../neuralperkinsdata' # there should only be two dotdots here
     try:
         os.makedirs(root)
     except:
