@@ -103,7 +103,7 @@ for iteration in range(1, 10000):
     print()
     print('-' * 50)
     print('Iteration', iteration)
-    model.fit(x, y, batch_size=2500, epochs=1)
+    model.fit(x, y, batch_size=500, epochs=1)
     model.save_weights(weights_file, overwrite=True)
     count += 1
     if count % 5 > 0:

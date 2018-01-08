@@ -67,7 +67,7 @@ def run(str):
         x = onehotArs[max(j - seglen, 0): j]
         x = myPad(x, seglen, len(chars), spaceIndex)
         x = x.reshape((1, x.shape[0], x.shape[1]))
-        print(getStrFromX(x))
+        # print(getStrFromX(x))
         preds = model.predict(x, verbose=0)[0]
         pNextCharI = preds[nextCharI]
         pmin = np.amin(preds)

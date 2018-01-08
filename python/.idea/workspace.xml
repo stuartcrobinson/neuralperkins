@@ -15,8 +15,8 @@
       <file leaf-file-name="weightsgen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="378">
+              <caret line="105" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -25,8 +25,8 @@
       <file leaf-file-name="h_keras.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/h_keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -35,8 +35,8 @@
       <file leaf-file-name="proofreader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proofreader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="844">
-              <caret line="81" column="73" lean-forward="false" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
+            <state relative-caret-position="904">
+              <caret line="85" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +84,8 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="66" lean-forward="false" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
+            <state relative-caret-position="317">
+              <caret line="72" column="66" lean-forward="false" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -159,6 +159,78 @@
                 <element signature="n#style#0;n#span#69;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#70;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#71;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#72;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#73;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#74;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#75;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#76;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#77;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#78;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#79;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#80;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#81;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#82;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#83;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#84;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#85;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#86;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#87;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#88;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#89;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#90;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#91;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#92;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#93;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#94;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#95;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#96;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#97;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#98;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#99;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#100;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#101;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#102;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#103;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#104;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#105;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#106;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#107;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#108;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#109;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#110;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#111;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#112;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#113;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#114;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#115;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#116;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#117;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#118;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#119;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#120;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#121;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#122;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#123;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#124;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#125;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#126;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#127;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#128;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#129;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#130;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#131;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#132;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#133;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#134;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#135;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#136;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#137;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#138;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#139;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#140;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#141;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#142;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#143;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,9 +270,9 @@
       <find>hous</find>
       <find>pad</find>
       <find>just_output_chars</find>
+      <find>zeros</find>
       <find>zeros =</find>
       <find>weigh</find>
-      <find>zeros</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -215,11 +287,11 @@
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/Output.html" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/weightsgen.py" />
         <option value="$PROJECT_DIR$/notes" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/proofreader.py" />
         <option value="$PROJECT_DIR$/h.py" />
+        <option value="$PROJECT_DIR$/proofreader.py" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/weightsgen.py" />
         <option value="$PROJECT_DIR$/h_keras.py" />
       </list>
     </option>
@@ -517,12 +589,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515365640237</updated>
-      <workItem from="1515365641710" duration="34858000" />
+      <workItem from="1515365641710" duration="35050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34858000" />
+    <option name="totallyTimeSpent" value="35050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="28" width="1371" height="1138" extended-state="0" />
@@ -641,10 +713,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/h.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proofreader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="85" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="66" lean-forward="false" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
+        <state relative-caret-position="317">
+          <caret line="72" column="66" lean-forward="false" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -718,38 +806,94 @@
             <element signature="n#style#0;n#span#69;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#70;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#71;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#72;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#73;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#74;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#75;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#76;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#77;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#78;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#79;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#80;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#81;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#82;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#83;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#84;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#85;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#86;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#87;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#88;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#89;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#90;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#91;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#92;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#93;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#94;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#95;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#96;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#97;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#98;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#99;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#100;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#101;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#102;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#103;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#104;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#105;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#106;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#107;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#108;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#109;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#110;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#111;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#112;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#113;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#114;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#115;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#116;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#117;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#118;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#119;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#120;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#121;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#122;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#123;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#124;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#125;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#126;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#127;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#128;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#129;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#130;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#131;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#132;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#133;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#134;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#135;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#136;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#137;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#138;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#139;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#140;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#141;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#142;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#143;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proofreader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="81" column="73" lean-forward="false" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weightsgen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="105" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/h_keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding />
         </state>
       </provider>

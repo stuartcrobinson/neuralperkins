@@ -7,7 +7,7 @@ from keras.optimizers import RMSprop
 
 def baseline_model(numUniqueChars, segmentLen):
     model = Sequential()
-    model.add(LSTM(512, input_shape=(segmentLen, numUniqueChars)))
+    model.add(LSTM(512, return_sequences=True, input_shape=(segmentLen, numUniqueChars)))
     model.add(LSTM(512))
     model.add(LSTM(512))
     model.add(Dense(numUniqueChars))
