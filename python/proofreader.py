@@ -28,6 +28,22 @@ def getStrFromX(x):
         chars.append(m_index_char[np.argmax(onehot)])
     return ''.join(chars)
 
+def myPad(x, seglen, numChars, spaceIndex):
+    if len(x) < seglen:
+        need = seglen - len(x)
+        # print("need: ", need)
+        # print(len(x))
+        # print(x)
+        zeros = np.zeros((need, numChars), dtype='bool')
+        for row in zeros:
+            row[spaceIndex] = 1
+        x = np.concatenate((zeros, x))
+        return x
+    elif (len(x) > seglen):
+        return x[-1*seglen:]
+    else:
+        return x
+
 
 def run(str):
     indices = []
@@ -46,16 +62,12 @@ def run(str):
     # with open("Output.html", "w") as text_file:
     #     text_file.write(html)
     spaceIndex = m_char_index[' ']
-    count = 0
     for j in range(0, len(onehotArs)):
-        count += 1
-        if count > 100:
-            break
         nextCharI = np.argmax(onehotArs[j])
-        x = onehotArs[min(j - seglen, 0): j]
-        x = h.myPad(x, seglen, len(chars), spaceIndex)
+        x = onehotArs[max(j - seglen, 0): j]
+        x = myPad(x, seglen, len(chars), spaceIndex)
         x = x.reshape((1, x.shape[0], x.shape[1]))
-        # print(getStrFromX(x))
+        print(getStrFromX(x))
         preds = model.predict(x, verbose=0)[0]
         pNextCharI = preds[nextCharI]
         pmin = np.amin(preds)
@@ -65,7 +77,9 @@ def run(str):
         print(m_index_char[nextCharI], h.getCharHtml(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
 
 
-run("Alice was not")# a bit hurt, and she jumped up on to her feet in a moment.")
+run("Alice was not a bit hurt, and she jumped up on to her feet in a moment.")
+
+# okay now find something more substantial to train on . t rain overnihgt
 
 
 
