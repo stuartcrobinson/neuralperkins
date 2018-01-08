@@ -150,13 +150,12 @@ def to_categorical(ar, num_classes, dtype='bool'):
 #    print(h.getCharHtlm(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
 
 def getCharHtml(char, pchar, pmin, pmax, charSuggest):
-    strings = ['<span></span\n']  # so all lines can begin with '>'
-
-    strings.append('><span style="background-color: ')
+    strings = []  
+    strings.append('<span style="background-color: ')
     strings.append(getRgbColor(pchar, pmin, pmax))
     strings.append('" title="')
     strings.append(htmlEncode(charSuggest))
     strings.append('">')
     strings.append(htmlEncode(char))
-    strings.append('</span\n')
-    return None
+    strings.append('</span>')
+    return ''.join(strings)
