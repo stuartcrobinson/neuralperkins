@@ -39,10 +39,12 @@ import numpy as np
 #     model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 #     return model
 
-def myPad(x, seglen, numChars):
+def myPad(x, seglen, numChars, spaceIndex):
     if len(x) < seglen:
         need = seglen - len(x)
         zeros = np.zeros((need, numChars), dtype='bool')
+        for row in zeros:
+            row[spaceIndex] = 1
         x = np.concatenate((zeros, x))
         return x
     elif (len(x) > seglen):
