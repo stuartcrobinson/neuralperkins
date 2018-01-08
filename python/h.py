@@ -128,3 +128,10 @@ def getColoredHtmlText(output):
 
 def getWeightsFile():
     return getRoot() + '/weights'
+
+
+def to_categorical(ar, num_classes, dtype='bool'):
+    matrix = np.zeros((len(ar), num_classes), dtype=dtype)
+    for i, v in enumerate(ar):
+        matrix[i][v] = 1
+    return matrix
