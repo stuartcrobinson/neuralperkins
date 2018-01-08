@@ -76,12 +76,23 @@ def getYellowRedShade(p, pmean):
     return getRgbString(r, g, b)
 
 
+
+def getYellowRedShade_singleSpectrum(p, pmin, pmax):
+    pct = p / pmax
+    r = 255
+    g = 255 * pct
+    b = 0
+    print('yellow, ', str(pct), ', ', str(r), ', ', str(g),  ', ', str(b))
+    return getRgbString(r, g, b)
+
+
 def getRgbColor(p, pmin, pmax):
-    pmean = np.mean([pmin, pmax])
-    if p > pmean:
-        return getWhiteYellowShade(p, pmax)
-    else:
-        return getYellowRedShade(p, pmean)
+    # pmean = np.mean([pmin, pmax])
+    # if p > pmean:
+    #     return getWhiteYellowShade(p, pmax)
+    # else:
+    #     return getYellowRedShade(p, pmean)
+    return getYellowRedShade_singleSpectrum(p, pmin, pmax)
 
 
 def htmlEncode(char):
@@ -135,3 +146,17 @@ def to_categorical(ar, num_classes, dtype='bool'):
     for i, v in enumerate(ar):
         matrix[i][v] = 1
     return matrix
+
+#    print(h.getCharHtlm(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
+
+def getCharHtml(char, pchar, pmin, pmax, charSuggest):
+    strings = ['<span></span\n']  # so all lines can begin with '>'
+
+    strings.append('><span style="background-color: ')
+    strings.append(getRgbColor(pchar, pmin, pmax))
+    strings.append('" title="')
+    strings.append(htmlEncode(charSuggest))
+    strings.append('">')
+    strings.append(htmlEncode(char))
+    strings.append('</span\n')
+    return None

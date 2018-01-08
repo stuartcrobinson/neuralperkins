@@ -7,7 +7,7 @@ importlib.reload(h_keras)
 
 root = h.getRoot()
 
-text_str = "Alice was not"  # a bit hurt, and she jumped up on to her feet in a moment. "
+text_str = "Alice was not a bit hurt, and she jumped up on to her feet in a moment. "
 
 seglen = np.load(root + '/seglen.npy').item()
 chars = np.load(root + '/chars.npy')
@@ -46,6 +46,7 @@ for j in range(0, len(onehotArs)):
     pmax_index = np.argmax(preds)
     pmax = preds[pmax_index]
     output.append((m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
+    print(h.getCharHtml(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
 
 html = h.getColoredHtmlText(output)
 
