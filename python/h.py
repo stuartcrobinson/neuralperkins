@@ -127,7 +127,7 @@ def getColoredHtmlText(output):
 
 
 def getWeightsFile():
-    return getRoot() + '/weights'
+    return getRoot() + '/weights3layer'
 
 
 def to_categorical(ar, num_classes, dtype='bool'):
