@@ -41,7 +41,7 @@ import numpy as np
 
 
 def chapsChar():
-    chapsChar = 'ඣ'
+    chapsChar = 'ᚙ'
     return chapsChar
 
 ##
