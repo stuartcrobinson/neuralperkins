@@ -137,4 +137,4 @@ for iteration in range(1, 10000):
     #     sys.stdout.flush()
     # print()
 
-
+# nohup python3 weightsgen.py >/dev/null 2>&1 &

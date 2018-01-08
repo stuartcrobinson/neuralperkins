@@ -12,17 +12,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="weightsgen.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="weightsgen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="72" column="33" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="72" selection-end-column="33" />
+            <state relative-caret-position="903">
+              <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h_keras.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="h_keras.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/h_keras.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -291,8 +291,8 @@
         <option value="$PROJECT_DIR$/h.py" />
         <option value="$PROJECT_DIR$/proofreader.py" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/weightsgen.py" />
         <option value="$PROJECT_DIR$/h_keras.py" />
+        <option value="$PROJECT_DIR$/weightsgen.py" />
       </list>
     </option>
   </component>
@@ -589,12 +589,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515365640237</updated>
-      <workItem from="1515365641710" duration="35185000" />
+      <workItem from="1515365641710" duration="35854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35185000" />
+    <option name="totallyTimeSpent" value="35854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="28" width="1371" height="1138" extended-state="0" />
@@ -882,18 +882,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weightsgen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="72" column="33" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="72" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/h_keras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weightsgen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding />
         </state>
       </provider>
