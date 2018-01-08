@@ -82,7 +82,7 @@ def getYellowRedShade_singleSpectrum(p, pmin, pmax):
     r = 255
     g = 255 * pct
     b = 0
-    print('yellow, ', str(pct), ', ', str(r), ', ', str(g),  ', ', str(b))
+    # print('yellow, ', str(pct), ', ', str(r), ', ', str(g),  ', ', str(b))
     return getRgbString(r, g, b)
 
 
@@ -150,7 +150,7 @@ def to_categorical(ar, num_classes, dtype='bool'):
 #    print(h.getCharHtlm(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
 
 def getCharHtml(char, pchar, pmin, pmax, charSuggest):
-    strings = []  
+    strings = []
     strings.append('<span style="background-color: ')
     strings.append(getRgbColor(pchar, pmin, pmax))
     strings.append('" title="')

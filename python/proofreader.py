@@ -48,9 +48,9 @@ for j in range(0, len(onehotArs)):
     output.append((m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
     print(h.getCharHtml(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
 
-html = h.getColoredHtmlText(output)
-
-print(html)
-
-with open("Output.html", "w") as text_file:
-    text_file.write(html)
+# html = h.getColoredHtmlText(output)
+#
+# print(html)
+#
+# with open("Output.html", "w") as text_file:
+#     text_file.write(html)
