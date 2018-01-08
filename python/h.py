@@ -39,6 +39,16 @@ import numpy as np
 #     model.compile(loss='categorical_crossentropy', optimizer=optimizer)
 #     return model
 
+def myPad(x, seglen, numChars):
+    if len(x) < seglen:
+        need = seglen - len(x)
+        zeros = np.zeros(need, numChars)
+        x = np.concatenate((zeros, x))
+        return x
+    elif (len(x) > seglen):
+        return x[-1*seglen:]
+    else:
+        return x
 
 def getCapsChar():
     chapsChar = 'ᚙ'
@@ -109,7 +119,7 @@ def getColoredHtmlText(output):
         strings.append(htmlEncode(char_actual))
         strings.append('</span\n')
         pass
-    strings.append('>\n<br/><br/>')
+    strings.append('><br/><br/>')
     return ''.join(strings)
 
 

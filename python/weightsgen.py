@@ -6,6 +6,10 @@ import numpy as np
 import h
 import h_keras
 
+import importlib
+importlib.reload(h)
+importlib.reload(h_keras)
+
 # len() is O(1)
 
 root = h.getRoot()
@@ -107,7 +111,6 @@ for iteration in range(1, 60):
     start_index = random.randint(0, len(text) - seglen - 1)
     #
     seed = text[start_index: start_index + seglen]
-
     # test = [m_index_char[i] for i in generated_indices]
     print('----- Generating with seed: "' + ''.join(seed) + '"')
     #
@@ -117,7 +120,7 @@ for iteration in range(1, 60):
     displayGenerate(model, seglen, m_index_char, m_char_index, seed, 400, np.argmax)
 
     # #
-    seed = [c for c in h.getCapsChar() + "a"]
+    # seed = [c for c in h.getCapsChar() + "alic"]
     # generated_indices = [m_char_index[c] for c in seed]
     # print('----- Generating with seed: "' + ''.join(seed) + '"')
     # for i in range(2):
