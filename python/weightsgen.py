@@ -99,7 +99,7 @@ def displayGenerate(model, seglen, m_index_char, m_char_index, seed, n, sample):
     print()
 
 
-for iteration in range(1, 60):
+for iteration in range(1, 10000):
     print()
     print('-' * 50)
     print('Iteration', iteration)

@@ -42,7 +42,7 @@ import numpy as np
 def myPad(x, seglen, numChars):
     if len(x) < seglen:
         need = seglen - len(x)
-        zeros = np.zeros(need, numChars)
+        zeros = np.zeros((need, numChars), dtype='bool')
         x = np.concatenate((zeros, x))
         return x
     elif (len(x) > seglen):

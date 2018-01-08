@@ -15,8 +15,8 @@
       <file leaf-file-name="weightsgen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="139">
+              <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -32,21 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proofreader.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="proofreader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proofreader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state relative-caret-position="709">
+              <caret line="127" column="14" lean-forward="false" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="h.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/h.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+            <state relative-caret-position="321">
+              <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -597,6 +597,7 @@
       <find>hous</find>
       <find>pad</find>
       <find>just_output_chars</find>
+      <find>zeros =</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -613,10 +614,10 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/h_keras.py" />
-        <option value="$PROJECT_DIR$/weightsgen.py" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/h.py" />
+        <option value="$PROJECT_DIR$/weightsgen.py" />
         <option value="$PROJECT_DIR$/proofreader.py" />
+        <option value="$PROJECT_DIR$/h.py" />
       </list>
     </option>
   </component>
@@ -905,12 +906,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515365640237</updated>
-      <workItem from="1515365641710" duration="30595000" />
+      <workItem from="1515365641710" duration="30797000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30595000" />
+    <option name="totallyTimeSpent" value="30797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="28" width="1371" height="1138" extended-state="0" />
@@ -993,14 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weightsgen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1517,18 +1510,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h.py">
+    <entry file="file://$PROJECT_DIR$/weightsgen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="139">
+          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proofreader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state relative-caret-position="709">
+          <caret line="127" column="14" lean-forward="false" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding />
         </state>
       </provider>

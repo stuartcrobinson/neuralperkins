@@ -15,9 +15,11 @@ import importlib
 
 import numpy as np
 
+import h_keras
 import h
 
 importlib.reload(h)
+importlib.reload(h_keras)
 
 root = h.getRoot()
 
@@ -40,7 +42,6 @@ for char in text_str:
     else:
         indices.append(m_char_index[char])
 
-import h_keras
 
 model = h_keras.baseline_model(len(chars), seglen)
 
