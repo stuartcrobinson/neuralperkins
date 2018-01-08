@@ -15,8 +15,8 @@
       <file leaf-file-name="weightsgen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="105" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="72" column="33" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="72" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -589,12 +589,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515365640237</updated>
-      <workItem from="1515365641710" duration="35094000" />
+      <workItem from="1515365641710" duration="35185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35094000" />
+    <option name="totallyTimeSpent" value="35185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="28" width="1371" height="1138" extended-state="0" />
@@ -884,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weightsgen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="105" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="72" selection-end-column="33" />
           <folding />
         </state>
       </provider>
