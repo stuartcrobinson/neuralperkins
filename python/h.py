@@ -3,7 +3,7 @@ helper functions
 '''
 
 
-def get_char_maps(chars):
+def getCharMaps(chars):
     m_char_index = dict((c, i) for i, c in enumerate(chars))
     m_index_char = dict((i, c) for i, c in enumerate(chars))
     return m_char_index, m_index_char
@@ -12,7 +12,7 @@ def get_char_maps(chars):
 import os
 
 
-def get_root():
+def getRoot():
     root = '../../neuralperkinsdata' # there should only be two dotdots here
     try:
         os.makedirs(root)
@@ -40,7 +40,7 @@ import numpy as np
 #     return model
 
 
-def chapsChar():
+def getCapsChar():
     chapsChar = 'ᚙ'
     return chapsChar
 
@@ -74,14 +74,14 @@ def getRgbColor(p, pmin, pmax):
         return getYellowRedShade(p, pmean)
 
 
-def html_encode(char):
+def htmlEncode(char):
     if char == ' ':
         return '&nbsp;'
     if char == '\n':
         return '<br/>'
     return char
 
-def get_colored_html_text(output):
+def getColoredHtmlText(output):
     '''
 <span style="background-color: rgb(255,255,200)">A</span
 ><span style="background-color: rgb(255,255,150)">A</span
@@ -104,12 +104,12 @@ def get_colored_html_text(output):
         strings.append('><span style="background-color: ')
         strings.append(getRgbColor(p, pmin, pmax))
         strings.append('" title="')
-        strings.append(html_encode(char_pmax))
+        strings.append(htmlEncode(char_pmax))
         strings.append('">')
-        strings.append(html_encode(char_actual))
+        strings.append(htmlEncode(char_actual))
         strings.append('</span\n')
         pass
-    strings.append('>')
+    strings.append('>\n<br/><br/>')
     return ''.join(strings)
 
 
@@ -117,4 +117,4 @@ def get_colored_html_text(output):
 
 
 def getWeightsFile():
-    return get_root() + '/weights'
+    return getRoot() + '/weights'

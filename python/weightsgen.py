@@ -8,7 +8,7 @@ import h_keras
 
 # len() is O(1)
 
-root = h.get_root()
+root = h.getRoot()
 
 
 def sample(preds, temperature=1.0):
@@ -27,7 +27,7 @@ with open('texts/aliceInWonderland.txt') as f:
     for line in f:
         for char in line:
             if char.isupper():
-                text.append(h.chapsChar())
+                text.append(h.getCapsChar())
                 text.append(char.lower())
             else:
                 text.append(char)
@@ -41,7 +41,7 @@ np.save(root + '/chars.npy', chars)
 print(len(chars))
 
 m_char_index, \
-m_index_char = h.get_char_maps(chars)
+m_index_char = h.getCharMaps(chars)
 
 # cut the text in semi-redundant sequences of maxlen characters
 seglen = 40
@@ -77,6 +77,24 @@ from keras.preprocessing import sequence
 
 # train the model, output generated text after each iteration
 count = 0
+
+
+def displayGenerate(model, seglen, m_index_char, m_char_index, seed, n, sample):
+    generated_indices = [m_char_index[c] for c in seed]
+    for i in range(n):
+        x_pred = np.zeros((1, seglen, len(chars)))
+        for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
+            x_pred[0, t, char_i] = 1.
+        #
+        preds = model.predict(x_pred, verbose=0)[0]
+        next_index = sample(preds)
+        #
+        generated_indices += [next_index]
+        #
+        print(m_index_char[next_index], end='', flush=True)
+    print()
+
+
 for iteration in range(1, 60):
     print()
     print('-' * 50)
@@ -89,38 +107,31 @@ for iteration in range(1, 60):
     start_index = random.randint(0, len(text) - seglen - 1)
     #
     seed = text[start_index: start_index + seglen]
-    generated_indices = [m_char_index[c] for c in seed]
+
     # test = [m_index_char[i] for i in generated_indices]
     print('----- Generating with seed: "' + ''.join(seed) + '"')
     #
     print('using sample(): ')
-    for i in range(400):
-        x_pred = np.zeros((1, seglen, len(chars)))
-        for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
-            x_pred[0, t, char_i] = 1.
-        #
-        preds = model.predict(x_pred, verbose=0)[0]
-        next_index = sample(preds)
-        #
-        generated_indices += [next_index]
-        #
-        print(m_index_char[next_index], end='', flush=True)
-    print()
-    #
-    generated_indices = [m_char_index[c] for c in seed]
+    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 400, sample)
     print('\nusing highest prob: ')
-    for i in range(400):
-        x_pred = np.zeros((1, seglen, len(chars)))
-        for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
-            x_pred[0, t, char_i] = 1.
-        #
-        preds = model.predict(x_pred, verbose=0)[0]
-        next_index = np.argmax(preds)
-        #
-        generated_indices += [next_index]
-        #
-        print(m_index_char[next_index], end='')
-        sys.stdout.flush()
-    print()
+    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 400, np.argmax)
+
+    # #
+    seed = [c for c in h.getCapsChar() + "a"]
+    # generated_indices = [m_char_index[c] for c in seed]
+    # print('----- Generating with seed: "' + ''.join(seed) + '"')
+    # for i in range(2):
+    #     x_pred = np.zeros((1, seglen, len(chars)))
+    #     for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
+    #         x_pred[0, t, char_i] = 1.
+    #     #
+    #     preds = model.predict(x_pred, verbose=0)[0]
+    #     next_index = np.argmax(preds)
+    #     #
+    #     generated_indices += [next_index]
+    #     #
+    #     print(m_index_char[next_index], end='')
+    #     sys.stdout.flush()
+    # print()
 
 

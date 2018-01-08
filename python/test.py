@@ -29,7 +29,7 @@ output = [
     ('p', 0.05, 0.05, 0.9, '10')
 ]
 
-html = h.get_colored_html_text(output)
+html = h.getColoredHtmlText(output)
 print(html)
 
 with open("Output.html", "w") as text_file:

@@ -15,21 +15,21 @@ import numpy as np
 
 import h
 
-root = h.get_root()
+root = h.getRoot()
 
-text_str = "hello here are the “words”."
+text_str = "Alice waited for over an hour."
 
 seglen = np.load(root + '/seglen.npy').item()
 chars = np.load(root + '/chars.npy')
 
 m_char_index, \
-m_index_char = h.get_char_maps(chars)
+m_index_char = h.getCharMaps(chars)
 
 indices = []
 
 for char in text_str:
     if char.isupper():
-        indices.append(m_char_index[h.chapsChar()])
+        indices.append(m_char_index[h.getCapsChar()])
         indices.append(m_char_index[char.lower()])
     else:
         indices.append(m_char_index[char])
@@ -62,14 +62,19 @@ for i, segment in enumerate(segments):
 
 # okay x and y are ready
 
-model = h.baseline_model(len(chars), seglen)
+import h_keras
+
+model = h_keras.baseline_model(len(chars), seglen)
 
 model.load_weights(h.getWeightsFile())
 
 output = []  # char_actual, p, pmin, pmax, char_pmax
 
-for i, segment_one_hot_arrays in x:
+for i, segment_one_hot_arrays in enumerate(x):
     x_pred = segment_one_hot_arrays
+    shape = x_pred.shape
+    x_pred = x_pred.reshape((1, shape[0], shape[1]))
+    # print(x_pred)
     preds = model.predict(x_pred, verbose=0)[0]
     next_index = np.argmax(y[i])
     next_index_probability = preds[next_index]
@@ -80,7 +85,9 @@ for i, segment_one_hot_arrays in x:
 
 just_output_chars = [c for (c, p, pmin) in output]
 
-html = h.get_colored_html_text(output)
+html = h.getColoredHtmlText(output)
+
+html += '<br/>'
 
 print(html)
 
