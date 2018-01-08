@@ -66,7 +66,7 @@ for i, sentence in enumerate(segments):
 
 model = h_keras.baseline_model(len(chars), seglen)
 
-weights_file = root + '/weights'
+weights_file = h.getWeightsFile()
 
 import os
 
@@ -106,9 +106,9 @@ for iteration in range(1, 60):
         #
         print(m_index_char[next_index], end='', flush=True)
     print()
-
+    #
     generated_indices = [m_char_index[c] for c in seed]
-    print('using highest prob: ')
+    print('\nusing highest prob: ')
     for i in range(400):
         x_pred = np.zeros((1, seglen, len(chars)))
         for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
@@ -122,3 +122,5 @@ for iteration in range(1, 60):
         print(m_index_char[next_index], end='')
         sys.stdout.flush()
     print()
+
+

@@ -12,22 +12,18 @@ add this tuple to a list of results:  char and probability.
 '''
 
 import numpy as np
-import h
 
+import h
 
 root = h.get_root()
 
 text_str = "hello here are the “words”."
-
-
 
 seglen = np.load(root + '/seglen.npy').item()
 chars = np.load(root + '/chars.npy')
 
 m_char_index, \
 m_index_char = h.get_char_maps(chars)
-
-
 
 indices = []
 
@@ -38,20 +34,16 @@ for char in text_str:
     else:
         indices.append(m_char_index[char])
 
-
-from keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing import sequence
-
 
 segments = []
 next_indices = []
 for i in range(0, len(indices)):
-    segments.append(indices[min(i-seglen, 0) : i])
+    segments.append(indices[min(i - seglen, 0): i])
     print(segments[i])
     next_indices.append(indices[i])
 
 print('nb sequences:', len(segments))
-
 
 # xIndices = sequence.pad_sequences(segments, seglen)
 
@@ -68,12 +60,13 @@ for i, segment in enumerate(segments):
     print(x[i])
     y[i, next_indices[i]] = 1
 
-#okay x and y are ready
+# okay x and y are ready
 
 model = h.baseline_model(len(chars), seglen)
 
+model.load_weights(h.getWeightsFile())
 
-output = [] # char_actual, p, pmin, pmax, char_pmax
+output = []  # char_actual, p, pmin, pmax, char_pmax
 
 for i, segment_one_hot_arrays in x:
     x_pred = segment_one_hot_arrays
@@ -85,7 +78,6 @@ for i, segment_one_hot_arrays in x:
     pmax = preds[pmax_index]
     output.append((m_index_char[next_index], next_index_probability, pmin, pmax, m_index_char[pmax_index]))
 
-
 just_output_chars = [c for (c, p, pmin) in output]
 
 html = h.get_colored_html_text(output)
@@ -94,9 +86,3 @@ print(html)
 
 with open("Output.html", "w") as text_file:
     text_file.write(html)
-
-
-
-
-
-

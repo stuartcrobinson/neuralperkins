@@ -114,3 +114,7 @@ def get_colored_html_text(output):
 
 
 #TODO test color maker!
+
+
+def getWeightsFile():
+    return get_root() + '/weights'
