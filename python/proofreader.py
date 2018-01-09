@@ -47,7 +47,7 @@ def myPad(x, seglen, numChars, spaceIndex):
 import scipy.stats as stats
 
 
-def run(str):
+def proofread(str):
     indices = []
     for char in str:
         if char.isupper():
@@ -73,9 +73,16 @@ def run(str):
         output.append((m_index_char[nextCharI], pNextCharI, pmin_, pmax_, m_index_char[pmax_index]))
         print(m_index_char[nextCharI], "{:0.3f} {:.2e} {:.2e} {:.2e}".format(percentile, pNextCharI, pmin_, pmax_), h.getCharHtml(m_index_char[nextCharI], percentile, pNextCharI, pmin_, pmax_, m_index_char[pmax_index]))
 
+proofread("Now thad you’re heRe I cin remember things better.")
 
-# run("Alice was not a bit hurt, and she jumped up on to her feet in a moment.")
+
+
+# proofread("I remember when.")
+
+
+# proofread("I remember when.")
+# run("Alice was not a bi. hurt, and she jumped up on to her feet in a moment.")
 # run("CHAPTER I. Down the Rabbit-Hole")
-run("I would lixe a cup of tea.")
+# run("I would like a a cup of tea.")
 
 

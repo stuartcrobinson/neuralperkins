@@ -105,6 +105,8 @@ def displayGenerate(model, seglen, m_index_char, m_char_index, seed, n, sample):
 # checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
 # callbacks_list = [checkpoint]
 
+from proofreader import proofread
+
 for iteration in range(1, 10000):
     print()
     print('-' * 50)
@@ -121,9 +123,10 @@ for iteration in range(1, 10000):
     print('----- Generating with seed: "' + ''.join(seed) + '"')
     #
     print('using sample(): ')
-    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 400, sample)
+    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, sample)
     print('\nusing highest prob: ')
-    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 400, np.argmax)
+    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, np.argmax)
+    proofread("I remember when you wexe a young child.  Things were were were simpler then.")
 
     # #
     # seed = [c for c in h.getCapsChar() + "alice sat down by the pond, but she knew she couldn’t stay long."]
@@ -145,3 +148,5 @@ for iteration in range(1, 10000):
     # print()
 
 # nohup python3 weightsgen.py > out.log 2>&1 &
+
+
