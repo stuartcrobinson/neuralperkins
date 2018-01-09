@@ -15,18 +15,8 @@
       <file leaf-file-name="weightsgen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/weightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="h_keras.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h_keras.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -35,8 +25,28 @@
       <file leaf-file-name="proofreader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proofreader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="74" column="71" lean-forward="false" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h_keras.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/h_keras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aliceInWonderland.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/texts/aliceInWonderland.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -45,8 +55,8 @@
       <file leaf-file-name="h.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/h.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state relative-caret-position="529">
+              <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -55,8 +65,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -84,10 +94,9 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="72" column="66" lean-forward="false" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
@@ -106,142 +115,7 @@
                 <element signature="n#style#0;n#span#16;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#17;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#18;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#19;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#20;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#21;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#22;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#23;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#24;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#25;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#26;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#27;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#28;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#29;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#30;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#31;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#32;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#33;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#34;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#35;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#36;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#37;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#38;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#39;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#40;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#41;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#42;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#43;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#44;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#45;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#46;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#47;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#48;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#49;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#50;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#51;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#52;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#53;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#54;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#55;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#56;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#57;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#58;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#59;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#60;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#61;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#62;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#63;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#64;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#65;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#66;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#67;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#68;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#69;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#70;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#71;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#72;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#73;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#74;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#75;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#76;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#77;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#78;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#79;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#80;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#81;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#82;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#83;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#84;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#85;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#86;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#87;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#88;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#89;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#90;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#91;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#92;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#93;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#94;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#95;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#96;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#97;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#98;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#99;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#100;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#101;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#102;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#103;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#104;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#105;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#106;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#107;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#108;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#109;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#110;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#111;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#112;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#113;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#114;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#115;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#116;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#117;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#118;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#119;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#120;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#121;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#122;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#123;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#124;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#125;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#126;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#127;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#128;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#129;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#130;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#131;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#132;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#133;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#134;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#135;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#136;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#137;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#138;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#139;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#140;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#141;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#142;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#143;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aliceInWonderland.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/texts/aliceInWonderland.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -270,9 +144,13 @@
       <find>hous</find>
       <find>pad</find>
       <find>just_output_chars</find>
+      <find>weigh</find>
+      <find>and round goes the clock in a twinkling</find>
+      <find>stuff and nonsense!’ said</find>
+      <find>Alice was not a</find>
+      <find>into a short into her eyes</find>
       <find>zeros</find>
       <find>zeros =</find>
-      <find>weigh</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -286,13 +164,13 @@
         <option value="$PROJECT_DIR$/neuralperkins.py" />
         <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/Output.html" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/notes" />
-        <option value="$PROJECT_DIR$/h.py" />
-        <option value="$PROJECT_DIR$/proofreader.py" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/h_keras.py" />
         <option value="$PROJECT_DIR$/weightsgen.py" />
+        <option value="$PROJECT_DIR$/h.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/proofreader.py" />
+        <option value="$PROJECT_DIR$/test.html" />
       </list>
     </option>
   </component>
@@ -312,7 +190,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="154" />
     <option name="y" value="28" />
-    <option name="width" value="1371" />
+    <option name="width" value="1531" />
     <option name="height" value="1138" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -589,15 +467,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515365640237</updated>
-      <workItem from="1515365641710" duration="35854000" />
+      <workItem from="1515365641710" duration="40392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35854000" />
+    <option name="totallyTimeSpent" value="40392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="28" width="1371" height="1138" extended-state="0" />
+    <frame x="154" y="28" width="1531" height="1138" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -612,7 +490,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981189" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14640698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -673,22 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/texts/aliceInWonderland.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/preprocessing/sequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -713,28 +575,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/texts/aliceInWonderland.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h_keras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/h.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state relative-caret-position="529">
+          <caret line="129" column="13" lean-forward="false" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/proofreader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="304">
+          <caret line="74" column="71" lean-forward="false" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="72" column="66" lean-forward="false" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
@@ -753,147 +638,14 @@
             <element signature="n#style#0;n#span#16;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#17;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#18;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#19;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#20;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#21;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#22;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#23;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#24;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#25;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#26;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#27;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#28;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#29;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#30;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#31;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#32;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#33;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#34;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#35;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#36;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#37;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#38;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#39;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#40;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#41;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#42;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#43;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#44;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#45;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#46;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#47;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#48;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#49;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#50;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#51;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#52;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#53;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#54;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#55;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#56;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#57;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#58;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#59;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#60;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#61;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#62;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#63;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#64;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#65;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#66;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#67;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#68;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#69;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#70;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#71;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#72;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#73;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#74;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#75;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#76;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#77;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#78;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#79;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#80;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#81;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#82;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#83;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#84;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#85;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#86;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#87;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#88;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#89;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#90;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#91;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#92;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#93;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#94;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#95;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#96;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#97;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#98;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#99;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#100;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#101;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#102;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#103;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#104;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#105;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#106;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#107;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#108;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#109;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#110;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#111;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#112;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#113;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#114;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#115;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#116;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#117;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#118;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#119;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#120;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#121;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#122;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#123;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#124;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#125;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#126;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#127;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#128;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#129;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#130;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#131;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#132;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#133;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#134;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#135;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#136;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#137;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#138;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#139;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#140;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#141;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#142;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#143;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h_keras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weightsgen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -75,13 +75,17 @@ def getYellowRedShade_singleSpectrum(p, pmin, pmax):
     return getRgbString(r, g, b)
 
 
-def getRgbColor(p, pmin, pmax):
+def getYellowRedShade_percentile(percentile):
+    return getRgbString(255, 255*percentile, 0)
+
+
+def getRgbColor(p, percentile, pmin, pmax):
     # pmean = np.mean([pmin, pmax])
     # if p > pmean:
     #     return getWhiteYellowShade(p, pmax)
     # else:
     #     return getYellowRedShade(p, pmean)
-    return getYellowRedShade_singleSpectrum(p, pmin, pmax)
+    return getYellowRedShade_percentile(percentile)
 
 
 def htmlEncode(char):
@@ -110,9 +114,9 @@ def getColoredHtmlText(output):
 
     strings = ['<span></span\n']  # so all lines can begin with '>'
     # need to make some characters html safe.  like ' '
-    for (char_actual, p, pmin, pmax, char_pmax) in output:
+    for (char_actual, p, percentile, pmin, pmax, char_pmax) in output:
         strings.append('><span style="background-color: ')
-        strings.append(getRgbColor(p, pmin, pmax))
+        strings.append(getRgbColor(p, percentile, pmin, pmax))
         strings.append('" title="')
         strings.append(htmlEncode(char_pmax))
         strings.append('">')
@@ -123,7 +127,16 @@ def getColoredHtmlText(output):
     return ''.join(strings)
 
 
-#TODO test color maker!
+def getCharHtml(char, percentile, pchar, pmin, pmax, charSuggest):
+    strings = []
+    strings.append('<span style="background-color: ')
+    strings.append(getRgbColor(pchar, percentile, pmin, pmax))
+    strings.append('" title="')
+    strings.append(htmlEncode(charSuggest))
+    strings.append('">')
+    strings.append(htmlEncode(char))
+    strings.append('</span>')
+    return ''.join(strings)
 
 
 def getWeightsFile():
@@ -137,14 +150,3 @@ def to_categorical(ar, num_classes, dtype='bool'):
     return matrix
 
 #    print(h.getCharHtlm(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
-
-def getCharHtml(char, pchar, pmin, pmax, charSuggest):
-    strings = []
-    strings.append('<span style="background-color: ')
-    strings.append(getRgbColor(pchar, pmin, pmax))
-    strings.append('" title="')
-    strings.append(htmlEncode(charSuggest))
-    strings.append('">')
-    strings.append(htmlEncode(char))
-    strings.append('</span>')
-    return ''.join(strings)

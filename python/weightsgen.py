@@ -78,6 +78,8 @@ if os.path.isfile(weights_file):
     model.load_weights(weights_file)
 
 from keras.preprocessing import sequence
+from keras.callbacks import ModelCheckpoint
+
 
 # train the model, output generated text after each iteration
 count = 0
@@ -98,16 +100,20 @@ def displayGenerate(model, seglen, m_index_char, m_char_index, seed, n, sample):
         print(m_index_char[next_index], end='', flush=True)
     print()
 
+# filepath="weights-improvement-{epoch:02d}-{loss:.4f}.hdf5"
+# filepath="weights-alice3hidden512.hdf5"
+# checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
+# callbacks_list = [checkpoint]
 
 for iteration in range(1, 10000):
     print()
     print('-' * 50)
     print('Iteration', iteration)
-    model.fit(x, y, batch_size=500, epochs=1)
+    model.fit(x, y, batch_size=500, epochs=1)  #, callbacks=callbacks_list
     model.save_weights(weights_file, overwrite=True)
     count += 1
-    if count % 5 > 0:
-        continue
+    # if count % 5 > 0:
+    #     continue
     start_index = random.randint(0, len(text) - seglen - 1)
     #
     seed = text[start_index: start_index + seglen]
@@ -120,7 +126,8 @@ for iteration in range(1, 10000):
     displayGenerate(model, seglen, m_index_char, m_char_index, seed, 400, np.argmax)
 
     # #
-    # seed = [c for c in h.getCapsChar() + "alic"]
+    # seed = [c for c in h.getCapsChar() + "alice sat down by the pond, but she knew she couldn’t stay long."]
+    # seed = [c for c in h.getCapsChar() + "then the words don’t fit"]
     # generated_indices = [m_char_index[c] for c in seed]
     # print('----- Generating with seed: "' + ''.join(seed) + '"')
     # for i in range(2):
@@ -137,4 +144,4 @@ for iteration in range(1, 10000):
     #     sys.stdout.flush()
     # print()
 
-# nohup python3 weightsgen.py >/dev/null 2>&1 &
+# nohup python3 weightsgen.py > out.log 2>&1 &
