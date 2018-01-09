@@ -150,3 +150,26 @@ def to_categorical(ar, num_classes, dtype='bool'):
     return matrix
 
 #    print(h.getCharHtlm(m_index_char[nextCharI], pNextCharI, pmin, pmax, m_index_char[pmax_index]))
+
+
+def getStrFromX(x, m_index_char):
+    chars = []
+    for onehot in x[0]:
+        chars.append(m_index_char[np.argmax(onehot)])
+    return ''.join(chars)
+
+def myPad(x, seglen, numChars, spaceIndex):
+    if len(x) < seglen:
+        need = seglen - len(x)
+        # print("need: ", need)
+        # print(len(x))
+        # print(x)
+        zeros = np.zeros((need, numChars), dtype='bool')
+        for row in zeros:
+            row[spaceIndex] = 1
+        x = np.concatenate((zeros, x))
+        return x
+    elif (len(x) > seglen):
+        return x[-1*seglen:]
+    else:
+        return x
