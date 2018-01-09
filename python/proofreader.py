@@ -57,12 +57,6 @@ def run(str):
             indices.append(m_char_index[char])
     onehotArs = h.to_categorical(indices, num_classes=len(chars), dtype='bool')
     output = []  # char_actual, p, pmin, pmax, char_pmax
-    # html = h.getColoredHtmlText(output)
-    #
-    # print(html)
-    #
-    # with open("Output.html", "w") as text_file:
-    #     text_file.write(html)
     spaceIndex = m_char_index[' ']
     for j in range(0, len(onehotArs)):
         nextCharI = np.argmax(onehotArs[j])
@@ -77,36 +71,11 @@ def run(str):
         pmax_index = np.argmax(preds)
         pmax_ = preds[pmax_index]
         output.append((m_index_char[nextCharI], pNextCharI, pmin_, pmax_, m_index_char[pmax_index]))
-        print(m_index_char[nextCharI], pNextCharI, pmin_, pmax_, h.getCharHtml(m_index_char[nextCharI], percentile, pNextCharI, pmin_, pmax_, m_index_char[pmax_index]))
+        print(m_index_char[nextCharI], "{:0.3f} {:.2e} {:.2e} {:.2e}".format(percentile, pNextCharI, pmin_, pmax_), h.getCharHtml(m_index_char[nextCharI], percentile, pNextCharI, pmin_, pmax_, m_index_char[pmax_index]))
 
 
 # run("Alice was not a bit hurt, and she jumped up on to her feet in a moment.")
 # run("CHAPTER I. Down the Rabbit-Hole")
 run("I would lixe a cup of tea.")
-
-# okay now find something more substantial to train on . t rain overnihgt
-# wiki text dump
-
-#use percentile!
-'''
-
-import scipy.stats as stats
-
-stats.percentileofscore([0,1,2,3,4,5], 0)
-
-x = [6,5,4,3,2,1,2,3,4,5,0,7,8,6,7,5,6,4]
->>> stats.percentileofscore(x, 0)
-5.5555555555555554
->>> stats.percentileofscore(x, 8)
-100.0
->>> stats.percentileofscore(x, -1)
-0.0
-
-why isn't percentile of lowest score 0?
-
-how else to improve?
-
-'''
-
 
 

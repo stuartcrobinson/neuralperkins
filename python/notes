@@ -13,6 +13,42 @@ add this tuple to a list of results:  char and probability.
 
 '''
 
+# okay now find something more substantial to train on . t rain overnihgt
+# wiki text dump
+
+#use percentile!
+'''
+
+import scipy.stats as stats
+
+stats.percentileofscore([0,1,2,3,4,5], 0)
+
+x = [6,5,4,3,2,1,2,3,4,5,0,7,8,6,7,5,6,4]
+>>> stats.percentileofscore(x, 0)
+5.5555555555555554
+>>> stats.percentileofscore(x, 8)
+100.0
+>>> stats.percentileofscore(x, -1)
+0.0
+
+why isn't percentile of lowest score 0?
+
+how else to improve?
+
+'''
+
+
+
+
+
+    # html = h.getColoredHtmlText(output)
+    #
+    # print(html)
+    #
+    # with open("Output.html", "w") as text_file:
+    #     text_file.write(html)
+
+
 
 trash:
 

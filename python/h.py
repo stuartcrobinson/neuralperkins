@@ -140,7 +140,7 @@ def getCharHtml(char, percentile, pchar, pmin, pmax, charSuggest):
 
 
 def getWeightsFile():
-    return getRoot() + '/weights3layer'
+    return getRoot() + '/weights3layer_2_notoverfitting'
 
 
 def to_categorical(ar, num_classes, dtype='bool'):
