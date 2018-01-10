@@ -32,7 +32,7 @@ model = h_keras.baseline_model(len(chars), seglen)
 if os.path.isfile(weights_file):
     model.load_weights(weights_file)
 
-iter = 200
+# iter = 200
 for iter in range(0, 999):
     #
     indices = np.load(root + '/gbIndices.npy')
