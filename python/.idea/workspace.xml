@@ -16,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/weightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1440">
-              <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+              <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -25,8 +25,18 @@
       <file leaf-file-name="gutenbergWeightsgen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gutenbergWeightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="720">
+              <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/h.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -36,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="903">
-              <caret line="639" column="0" lean-forward="true" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
+              <caret line="639" column="0" lean-forward="false" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -599,7 +609,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="notes" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="825">
@@ -613,7 +623,7 @@
         <entry file="file://$PROJECT_DIR$/h_keras.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
-              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+              <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -623,7 +633,7 @@
         <entry file="file://$PROJECT_DIR$/gutenbergPrep.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="859">
-              <caret line="178" column="48" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <caret line="178" column="48" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -691,10 +701,10 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/proofreader.py" />
         <option value="$PROJECT_DIR$/weightsgen.py" />
-        <option value="$PROJECT_DIR$/h.py" />
-        <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/gutenbergPrep.py" />
+        <option value="$PROJECT_DIR$/notes" />
         <option value="$PROJECT_DIR$/gutenbergWeightsgen.py" />
+        <option value="$PROJECT_DIR$/h.py" />
       </list>
     </option>
   </component>
@@ -997,10 +1007,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58956000" />
+    <option name="totallyTimeSpent" value="59915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="154" y="28" width="1531" height="1138" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1014,7 +1025,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14640698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14640698" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1079,24 +1090,24 @@
         <state relative-caret-position="195">
           <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
           <folding>
-            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#7;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#8;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#9;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#10;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#11;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#12;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#13;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#14;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#15;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#16;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#17;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#18;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#2;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#3;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#4;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#5;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#6;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#7;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#8;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#9;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#10;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#11;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#12;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#13;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#14;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#15;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#16;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#17;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#18;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1120,7 +1131,7 @@
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="903">
-          <caret line="639" column="0" lean-forward="true" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
+          <caret line="639" column="0" lean-forward="false" selection-start-line="639" selection-start-column="0" selection-end-line="639" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
@@ -1683,15 +1694,7 @@
     <entry file="file://$PROJECT_DIR$/h_keras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/h.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1699,7 +1702,7 @@
     <entry file="file://$PROJECT_DIR$/weightsgen.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
-          <caret line="96" column="33" lean-forward="true" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
+          <caret line="96" column="33" lean-forward="false" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1707,15 +1710,7 @@
     <entry file="file://$PROJECT_DIR$/gutenbergPrep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="859">
-          <caret line="178" column="48" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gutenbergWeightsgen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <caret line="178" column="48" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1724,6 +1719,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gutenbergWeightsgen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="150" column="47" lean-forward="false" selection-start-line="150" selection-start-column="47" selection-end-line="150" selection-end-column="47" />
           <folding />
         </state>
       </provider>

@@ -147,6 +147,10 @@ def getWeightsFile():
     return getRoot() + '/weights3layer_2_notoverfitting'
 
 
+def getGbWeightsFile():
+    return getRoot() + '/weights3layerGutenberg'
+
+
 def to_categorical(ar, num_classes, dtype='bool'):
     matrix = np.zeros((len(ar), num_classes), dtype=dtype)
     for i, v in enumerate(ar):

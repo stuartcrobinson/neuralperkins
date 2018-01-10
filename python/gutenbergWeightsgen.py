@@ -10,11 +10,16 @@ importlib.reload(h)
 importlib.reload(h_keras)
 
 # len() is O(1)
+'''
+scp -i "eastKeyPairPem.pem" repos/neuralperkinsdata.zip ec2-user@ec2-34-224-37-168.compute-1.amazonaws.com:~
+
+'''
 
 root = h.getRoot()
 
-indices = np.load(root + '/gbIndices.npy').item()
-chars = np.load(root + '/gbIndices.npy').item()
+indices = np.load(root + '/gbIndices.npy')
+indices = indices[0:int(len(indices)/100)]
+chars = np.load(root + '/gbChars.npy').item()
 
 m_char_index, \
 m_index_char = h.getCharMaps(chars)
