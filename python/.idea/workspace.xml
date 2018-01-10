@@ -22,17 +22,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gutenbergWeightsgen.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gutenbergWeightsgen.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gutenbergWeightsgen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="h.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="h.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/h.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
@@ -3421,12 +3421,12 @@
       <option name="presentableId" value="Default" />
       <updated>1515365640237</updated>
       <workItem from="1515365641710" duration="58956000" />
-      <workItem from="1515598453843" duration="486000" />
+      <workItem from="1515598453843" duration="540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64160000" />
+    <option name="totallyTimeSpent" value="64214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="33" width="1531" height="1138" extended-state="0" />
@@ -9548,14 +9548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gutenbergWeightsgen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/h_keras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -9576,6 +9568,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gutenbergWeightsgen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="10" />
           <folding />
         </state>
       </provider>
