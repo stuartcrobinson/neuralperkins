@@ -52,7 +52,7 @@ for iter in range(0, 999):
             x[j, t, i] = 1
         y[j, next_i] = 1
     #
-    model.fit(x, y, batch_size=800, epochs=1)  # , callbacks=callbacks_list
+    model.fit(x, y, batch_size=600, epochs=1)  # , callbacks=callbacks_list
     model.save_weights(weights_file, overwrite=True)
     #
     start_index = random.randint(0, len(indices) - seglen - 1)
