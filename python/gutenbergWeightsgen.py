@@ -84,8 +84,10 @@ for iter in range(0, 999):
     # test = [m_index_char[i] for i in generated_indices]
     print('----- Generating with seed: "' + ''.join(seed) + '"')
     #
+    print('\nusing sample: ')
+    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 300, h_keras.sample)
     print('\nusing highest prob: ')
-    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, np.argmax)
+    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 300, np.argmax)
     h_keras.proofread(m_char_index, m_index_char, seglen, chars, model, "I remember when you wexe a young child.  Things were were were simpler then.")
     #
     del indices
