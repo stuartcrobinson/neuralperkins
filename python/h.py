@@ -22,22 +22,6 @@ def getRoot():
 
 
 import numpy as np
-#
-# from keras.models import Sequential
-# from keras.layers import Dense
-# from keras.layers import LSTM
-# from keras.layers import Activation
-# from keras.optimizers import RMSprop
-#
-# def baseline_model(numUniqueChars, segmentLen):
-#     model = Sequential()
-#     model.add(LSTM(512, input_shape=(segmentLen, numUniqueChars)))
-#     model.add(Dense(numUniqueChars))
-#     model.add(Activation('softmax'))
-#     optimizer = RMSprop(lr=0.01)
-#     # model.compile(loss='categorical_crossentropy', optimizer='rmsprop')
-#     model.compile(loss='categorical_crossentropy', optimizer=optimizer)
-#     return model
 
 def getCapsChar():
     chapsChar = 'ᚙ'
@@ -148,7 +132,10 @@ def getWeightsFile():
 
 
 def getGbWeightsFile():
-    return getRoot() + '/weights3layerGutenberg'
+    return getRoot() + '/weights9layerGutenberg'
+
+# def getGbWeights9File():
+#     return getRoot() + '/weights9layerGutenberg'
 
 
 def to_categorical(ar, num_classes, dtype='bool'):
