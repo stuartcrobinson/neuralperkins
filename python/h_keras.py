@@ -22,6 +22,25 @@ import h
 
 import scipy.stats as stats
 
+from keras.preprocessing import sequence
+
+def displayGenerate(model, seglen, m_index_char, m_char_index, seed, n, sample_function, temperature=1):
+    generated_indices = [m_char_index[c] for c in seed]
+    for i in range(n):
+        x_pred = np.zeros((1, seglen, len(m_index_char)))
+        for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
+            x_pred[0, t, char_i] = 1.
+        #
+        preds = model.predict(x_pred, verbose=0)[0]
+        if sample_function == sample:
+            next_index = sample_function(preds, temperature=temperature)
+        else:
+            next_index = sample_function(preds)
+        #
+        generated_indices += [next_index]
+        #
+        print(m_index_char[next_index], end='', flush=True)
+    print()
 
 
 def sample(preds, temperature=1.0):

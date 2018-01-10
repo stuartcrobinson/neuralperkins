@@ -1,10 +1,10 @@
+import importlib
 import random
 
 import numpy as np
 
 import h
 import h_keras
-import importlib
 
 importlib.reload(h)
 importlib.reload(h_keras)
@@ -12,7 +12,6 @@ importlib.reload(h_keras)
 # len() is O(1)
 
 root = h.getRoot()
-
 
 text = h.getFileAsCharsArWCapsChar('texts/aliceInWonderland.txt')
 
@@ -57,32 +56,8 @@ import os
 if os.path.isfile(weights_file):
     model.load_weights(weights_file)
 
-from keras.preprocessing import sequence
-
 # train the model, output generated text after each iteration
 count = 0
-
-
-def displayGenerate(model, seglen, m_index_char, m_char_index, seed, n, sample):
-    generated_indices = [m_char_index[c] for c in seed]
-    for i in range(n):
-        x_pred = np.zeros((1, seglen, len(chars)))
-        for t, char_i in enumerate(sequence.pad_sequences([generated_indices], seglen)[0]):
-            x_pred[0, t, char_i] = 1.
-        #
-        preds = model.predict(x_pred, verbose=0)[0]
-        next_index = sample(preds)
-        #
-        generated_indices += [next_index]
-        #
-        print(m_index_char[next_index], end='', flush=True)
-    print()
-
-
-# filepath="weights-improvement-{epoch:02d}-{loss:.4f}.hdf5"
-# filepath="weights-alice3hidden512.hdf5"
-# checkpoint = ModelCheckpoint(filepath, monitor='loss', verbose=1, save_best_only=True, mode='min')
-# callbacks_list = [checkpoint]
 
 for iteration in range(1, 10000):
     print()
@@ -100,9 +75,9 @@ for iteration in range(1, 10000):
     print('----- Generating with seed: "' + ''.join(seed) + '"')
     #
     print('using sample(): ')
-    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, h_keras.sample)
+    h_keras.displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, h_keras.sample)
     print('\nusing highest prob: ')
-    displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, np.argmax)
+    h_keras.displayGenerate(model, seglen, m_index_char, m_char_index, seed, 150, np.argmax)
     h_keras.proofread(m_char_index, m_index_char, seglen, chars, model, "I remember when you wexe a young child.  Things were were were simpler then.")
 
 
