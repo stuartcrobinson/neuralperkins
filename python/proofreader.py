@@ -24,7 +24,7 @@ m_index_char = h.getCharMaps(chars)
 
 
 
-# proofread("Now thad you’re heRe I cin remember things better.")
+h_keras.proofread("Now thad you’re heRe I cin remember things better.")
 
 
 

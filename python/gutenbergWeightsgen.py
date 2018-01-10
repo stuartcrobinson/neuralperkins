@@ -1,10 +1,10 @@
+import importlib
 import random
 
 import numpy as np
 
 import h
 import h_keras
-import importlib
 
 importlib.reload(h)
 importlib.reload(h_keras)
@@ -13,26 +13,8 @@ importlib.reload(h_keras)
 
 root = h.getRoot()
 
-
-def sample(preds, temperature=1.0):
-    # helper function to sample an index from a probability array
-    preds = np.asarray(preds).astype('float64')
-    preds = np.log(preds) / temperature
-    exp_preds = np.exp(preds)
-    preds = exp_preds / np.sum(exp_preds)
-    probas = np.random.multinomial(1, preds, 1)
-    return np.argmax(probas)
-
-
-text = h.getFileAsCharsArWCapsChar('texts/aliceInWonderland.txt')
-
-print(len(text))
-
-chars = sorted(list(set(text)))
-
-np.save(root + '/chars.npy', chars)
-
-print(len(chars))
+indices = np.load(root + '/gbIndices.npy').item()
+chars = np.load(root + '/gbIndices.npy').item()
 
 m_char_index, \
 m_index_char = h.getCharMaps(chars)
@@ -40,23 +22,22 @@ m_index_char = h.getCharMaps(chars)
 # cut the text in semi-redundant sequences of maxlen characters
 seglen = 40
 
-np.save(root + '/seglen.npy', seglen)
+np.save(root + '/gbSeglen.npy', seglen)
 
-segments = []
-next_chars = []
-for i in range(0, len(text) - seglen):
-    segments.append(text[i: i + seglen])
-    next_chars.append(text[i + seglen])
+numSegments = len(indices) - seglen
 
-print('nb sequences:', len(segments))
+# 1 2 3 4 5 6 7 8 9
+# 1 2 3
 
 print('Vectorization...')
-x = np.zeros((len(segments), seglen, len(chars)), dtype=np.bool)
-y = np.zeros((len(segments), len(chars)), dtype=np.bool)
-for i, sentence in enumerate(segments):
-    for t, char in enumerate(sentence):
-        x[i, t, m_char_index[char]] = 1
-    y[i, m_char_index[next_chars[i]]] = 1
+x = np.zeros((numSegments, seglen, len(chars)), dtype=np.bool)
+y = np.zeros((numSegments, len(chars)), dtype=np.bool)
+for j in range(0, numSegments):
+    next_i = indices[j + seglen]
+    segment = indices[j:j + seglen]
+    for t, i in enumerate(segment):
+        x[j, t, i] = 1
+    y[j, next_i] = 1
 
 model = h_keras.baseline_model(len(chars), seglen)
 

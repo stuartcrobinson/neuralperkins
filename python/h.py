@@ -43,6 +43,10 @@ def getCapsChar():
     chapsChar = 'ᚙ'
     return chapsChar
 
+def getUnknownChar():
+    unknownChar = 'ᚊ'
+    return unknownChar
+
 ##
 def getRgbString(r, g, b):
     return ''.join(['rgb(', str(int(r)), ',', str(int(g)), ',', str(int(b)), ')'])
@@ -173,3 +177,16 @@ def myPad(x, seglen, numChars, spaceIndex):
         return x[-1*seglen:]
     else:
         return x
+
+
+def getFileAsCharsArWCapsChar(file):
+    text = []
+    with open(file) as f:
+        for line in f:
+            for char in line:
+                if char.isupper():
+                    text.append(getCapsChar())
+                    text.append(char.lower())
+                else:
+                    text.append(char)
+    return text
